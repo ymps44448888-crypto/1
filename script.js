@@ -9,7 +9,7 @@ for(let i = 1;i < 10;i ++){
   grid.classList.add('grid')
   grid.id = i;
   for(let j = 1;j < 10;j ++){
-    const cell = document.cratElement('div');
+    const cell = document.createElement('div');
     cell.classList.add('cell') //小格子 空
     cell.addEventListener('click',function(){
       if(i === area[area.length - 1] && cell.className === 'cell' || round === 1){
@@ -39,7 +39,7 @@ function backstep(){
     round -= 1;
   }
 }
-function showarea(){
+function showarea(next_area_num){
   next_area = document.getElementById('next_area_num');
   console.log(next_area);
   if(highlight != null){
