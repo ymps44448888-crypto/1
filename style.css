@@ -34,5 +34,17 @@
 }
 
 .grid{
-  
+  background-color: #;
+  display: grid;
+  grid-template-columus: auto auto auto;
+  grid-template-rows: auto auto auto;
+
+  gap: 2%;
+}
+
+.cell.o{
+  background-color: #;
+}
+.cell.x{
+  background-color: #;
 }
