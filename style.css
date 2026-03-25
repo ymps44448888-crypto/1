@@ -1,0 +1,38 @@
+#main{
+  position: absolute;
+  top: 3vh;
+  width: 85vmin;
+  height: 90vmin;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#grid-contianer{
+  display: grid;
+  background-color: #;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+
+  outline-style: soild;
+  outline-color: #;
+  outline-width: 1vmin;
+  gap: 1%;
+}
+
+#back{
+  background-color: #;
+  width: 20vmin;
+  height: 10vmin;
+
+  position: absolute;
+  bottom: 1vh;
+  left: 50%;
+  
+}
+
+.grid{
+  
+}
