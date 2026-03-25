@@ -2,7 +2,8 @@ const container = document.getElementById('grid-container');
 let round = 1;
 let area = [];
 let step = [];
-
+let highlight = null;
+  
 for(let i = 1;i < 10;i ++){
   const grid = document.createElememt('div');
   grid.classList.add('grid')
@@ -12,6 +13,7 @@ for(let i = 1;i < 10;i ++){
     cell.addEventListener('click',founction(){
       if(i == area[area.length - 1] && cell.className = 'cell' || round == 1){
         area.push(j);
+        showarea(j);
         this.className = 'cell';
         if(round % 2 != 0){
           this.classList.add('o');
@@ -34,5 +36,25 @@ function backstep(){
   step.pop();
   if(round > 0){
     round -= 1;
+  }
+}
+function showarea(){
+  next_area = document.getElementById('next_area_num');
+  console.log(next_area);
+  if(highlight != null){
+    Array.from(highlight).forEach(item =>{
+      if(item.classList == 'cell highlight'){
+        item.className = 'cell';
+      }
+    });
+  }
+  if(next_area != null){
+    hightlight = next_area.childran;
+
+    Array.from(highlight).forEach(item =>{
+      if(item.className == 'cell'){
+        
+      }
+    });
   }
 }
