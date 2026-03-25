@@ -30,7 +30,13 @@
   position: absolute;
   bottom: 1vh;
   left: 50%;
-  
+
+  transform: translate(-50%);
+  border: none;
+  border-radius: 1vmin;
+  color: #2E3440;
+  font-wight: bold;
+  cursor: pointer;
 }
 
 .grid{
@@ -40,6 +46,11 @@
   grid-template-rows: auto auto auto;
 
   gap: 2%;
+}
+
+.cell {
+  background-color: #ECEFF4;
+  cursor: pointer;
 }
 
 .cell.o{
