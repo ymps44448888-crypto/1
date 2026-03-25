@@ -9,21 +9,21 @@
 
 #grid-contianer{
   display: grid;
-  background-color: #;
+  background-color: #2E3440;
   width: 100%;
   aspect-ratio: 1 / 1;
 
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
 
-  outline-style: soild;
-  outline-color: #;
+  outline-style: solid;
+  outline-color: #4C566A;
   outline-width: 1vmin;
   gap: 1%;
 }
 
 #back{
-  background-color: #;
+  background-color: #88C0D0;
   width: 20vmin;
   height: 10vmin;
 
@@ -34,7 +34,7 @@
 }
 
 .grid{
-  background-color: #;
+  background-color: #3B4252;
   display: grid;
   grid-template-columus: auto auto auto;
   grid-template-rows: auto auto auto;
@@ -43,8 +43,8 @@
 }
 
 .cell.o{
-  background-color: #;
+  background-color: #A3BE8C;
 }
 .cell.x{
-  background-color: #;
+  background-color: #BF616A;
 }
